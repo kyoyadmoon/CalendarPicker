@@ -26,7 +26,7 @@ var styles = StyleSheet.create({
 
   dayLabel: {
     fontSize: 14,
-    color: '#000',
+    color: '#FFF',
     alignSelf: 'center'
   },
 
@@ -52,7 +52,7 @@ var styles = StyleSheet.create({
 
   monthLabel: {
     fontSize: 16,
-    color: '#000',
+    color: '#FFF',
     textAlign: 'center'
   },
 

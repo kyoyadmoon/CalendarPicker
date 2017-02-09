@@ -1,5 +1,5 @@
 {
-  "name": "react-native-calendar-picker",
+  "name": "react-native-marked-calendar-picker",
   "version": "2.7.0",
   "description": "Calendar Picker Component for React Native",
   "main": "./CalendarPicker/CalendarPicker.js",
@@ -72,5 +72,8 @@
       "promise",
       "source-map"
     ]
+  },
+  "dependencies": {
+    "moment": "^2.17.1"
   }
 }

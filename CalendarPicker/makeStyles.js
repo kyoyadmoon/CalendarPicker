@@ -34,7 +34,7 @@ function makeStyles(scaler) {
 
     dayLabel: {
       fontSize: 14*scaler,
-      color: '#000',
+      color: '#FFF',
       marginTop: 6*scaler,
       alignSelf: 'center'
     },
@@ -58,7 +58,7 @@ function makeStyles(scaler) {
     dayLabels: {
       width: 50*scaler,
       fontSize: 10*scaler,
-      color: '#000',
+      color: '#FFF',
       textAlign: 'center'
     },
 
@@ -72,7 +72,7 @@ function makeStyles(scaler) {
 
     monthLabel: {
       fontSize: 16*scaler,
-      color: '#000',
+      color: '#FFF',
       width: 180*scaler,
       textAlign: 'center'
     },
@@ -92,11 +92,13 @@ function makeStyles(scaler) {
     },
 
     prev: {
+      color: '#FFF',
       textAlign: 'left',
       fontSize: 14*scaler
     },
 
     next: {
+      color: '#FFF',
       textAlign: 'right',
       fontSize: 14*scaler
     },
@@ -104,7 +106,7 @@ function makeStyles(scaler) {
     yearLabel: {
       fontSize: 14*scaler,
       fontWeight: 'bold',
-      color: '#000',
+      color: '#FFF',
       textAlign: 'center'
     },
 

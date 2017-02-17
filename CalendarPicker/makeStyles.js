@@ -6,6 +6,8 @@
  */
 'use strict';
 
+const HEADER_CONTROL_SCALE = 1.3;
+
 function makeStyles(scaler) {
   return {
     calendar: {
@@ -71,7 +73,7 @@ function makeStyles(scaler) {
     },
 
     monthLabel: {
-      fontSize: 16*scaler,
+      fontSize: 16*scaler*HEADER_CONTROL_SCALE,
       color: '#FFF',
       width: 180*scaler,
       textAlign: 'center'
@@ -94,13 +96,13 @@ function makeStyles(scaler) {
     prev: {
       color: '#FFF',
       textAlign: 'left',
-      fontSize: 14*scaler
+      fontSize: 14*scaler*HEADER_CONTROL_SCALE,
     },
 
     next: {
       color: '#FFF',
       textAlign: 'right',
-      fontSize: 14*scaler
+      fontSize: 14*scaler*HEADER_CONTROL_SCALE,
     },
 
     yearLabel: {

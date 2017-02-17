@@ -313,17 +313,17 @@ var HeaderControls = React.createClass({
       <View style={styles.headerWrapper}>
         <View style={styles.monthSelector}>
           <TouchableOpacity onPress={this.getPrevious}>
-            <Text style={styles.prev}>{this.props.previousTitle || 'Previous'}</Text>
+            <Text style={[styles.prev, styles.headerControlText]}>{this.props.previousTitle || 'Previous'}</Text>
           </TouchableOpacity>
         </View>
         <View>
-          <Text style={styles.monthLabel}>
+          <Text style={[styles.monthLabel, styles.headerControlText]}>
             {(this.props.months || MONTHS)[this.props.month]}  {this.props.year}
           </Text>
         </View>
         <View style={styles.monthSelector}>
           <TouchableOpacity onPress={this.getNext}>
-            <Text style={styles.next}>{this.props.nextTitle || 'Next'}</Text>
+            <Text style={[styles.next, styles.headerControlText]}>{this.props.nextTitle || 'Next'}</Text>
           </TouchableOpacity>
         </View>
       </View>
